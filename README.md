@@ -21,7 +21,7 @@ Este proyecto es un formulario de contacto estilizado y moderno, construido con 
 Para clonar y ejecutar este proyecto, sigue los siguientes pasos.
 
 1. Clona el repositorio:
-git clone https://github.com/21IRM21/practica_repositorio2.git
+git clone https://github.com/21IRM21/Formulario_Contacto.git
 
 2. Abre el archivo `formulario.html` en tu navegador. 
 
