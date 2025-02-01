@@ -1,21 +1,20 @@
-document.getElementById('contactForm').addEventListener('submit',function(event){
+document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    //Validación básica
+    // Validación básica
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const subject = document.getElementById('subject').value;
-    const messagge = document.getElementById('messagge').value;
+    const message = document.getElementById('message').value;
 
-    if (name && email && phone && subject && messagge){
-
-        //Simulación de envío de formulario
-        document.getElementById('successMessagge').style.display = 'block';
-        //Resetear el formulario
+    if (name && email && phone && subject && message) {
+        // Simulación de envío de formulario
+        document.getElementById('success-message').style.display = 'block';
+        
+        // Resetear el formulario
         document.getElementById('contactForm').reset();
-    }else {
+    } else {
         alert('Por favor, completa todos los campos obligatorios');
     }
 });
-
